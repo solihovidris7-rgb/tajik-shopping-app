@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'screens/order_screen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -23,12 +23,7 @@ class HomeScreen extends StatelessWidget {
         title: Text('Хуш омадед'),
       ),
       body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            // баъдтар ин ҷо мегузарем ба саҳифаи фармоиш
-          },
-          child: Text('Фармоиш додан'),
-        ),
+        child:
       ),
     );
   }
