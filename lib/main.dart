@@ -23,7 +23,17 @@ class HomeScreen extends StatelessWidget {
         title: Text('Хуш омадед'),
       ),
       body: Center(
-        child:
+        child:ElevatedButton(
+  onPressed: () {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => OrderScreen(),
+      ),
+    );
+  },
+  child: Text('Фармоиш додан'),
+),
       ),
     );
   }
